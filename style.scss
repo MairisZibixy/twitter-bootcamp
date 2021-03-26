@@ -2,3 +2,16 @@ body {
     margin: 0;
     background: #17202A;
 }
+
+#navigation {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    padding: 5px 0 0 15px;
+}
+
+.text {
+    color: #FFFFFF;
+    padding-left: 8px;
+}
