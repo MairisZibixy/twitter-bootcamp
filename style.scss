@@ -22,10 +22,10 @@ body {
         display: flex;
         align-content: center;
         text-decoration: none;
+        width: 230px;
     }
-    .icons {
+    .icon {
         display: flex;
-        justify-content: center;
-        align-content: center;
+        align-content: space-between;
     }
 }
