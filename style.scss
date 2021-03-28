@@ -8,16 +8,12 @@ body {
     flex-direction: column;
     padding: 5px 0 0 15px;
     width: 230px;
-    &:hover {
-        background: rgba(0, 0, 0, 0.05);
-        transition: background 0.5s;
-    }
     .text {
         color: #FFFFFF;
         padding-left: 8px;
         font-size: 20px;
     }
-    div {
+    .twitter-icon {
         padding: 8px 0 8px 0;
         display: flex;
         align-content: center;
@@ -27,11 +23,17 @@ body {
         display: flex;
         align-items: center;
         text-decoration: none;
+        &:hover {
+            background: rgba(0, 0, 0, 0.5);
+            transition: background 0.5s;
+        }
     }
     .icon {
         display: flex;
         align-items: center;
+        justify-content: center;
         position: relative;
+        padding-left: 2px;
         .notification {
             position: absolute;
             left: 9px;
@@ -46,16 +48,24 @@ body {
             font-size: 12px;
         }
     }
+    .more-icon {
+        padding-left: 0px;
+    }
     .tweet {
         width: 211px;
         height: 50px;
+        padding: 0;
         display: flex;
         background: #4BA0EC;
-        border-radius: 100px;
+        border-radius: 85px;
         border: 0;
         font-size: 18px;
         font-weight: bold;
         color: rgb(255, 255, 255);
         justify-content: center;
+        &:hover {
+            background: rgba(83, 190, 233, 0.5);
+            transition: background 0.5s;
+        }
     }
 }
