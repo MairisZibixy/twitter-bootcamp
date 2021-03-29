@@ -83,7 +83,9 @@ body {
             height: 30px;
             align-items: flex-start;
             &:hover {
-                background: black;
+                background: none;
+                transform: scale(1.3);
+                transition: scale 0.5s;
             }
         }
         .text {
